@@ -148,6 +148,27 @@
     color: #fff;
   }
 
+  .action {
+    padding: 1rem;
+  }
+  
+  .action h3 {
+    color: #35b1e8;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  
+  .action h1 + p {
+    border-left: solid 1px #dedede;
+    padding-left: 1rem;
+  }
+  
+  .action article h1 {
+    margin-left: 1rem;
+  }
+
+
+
   /* ############ 10. Media Queries ############ */
 
 /* ############ 10a. Media Query, (min-width: 800px) ############ */
@@ -202,5 +223,22 @@
   nav.btn:hover {
     box-shadow: inset 0 0 5px #13b1e7;
     background-color: #223054;
+  }
+
+  .action {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .action article {
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .action article h1 {
+    text-align: right;
+    margin-right: 1rem;
   }
 }
