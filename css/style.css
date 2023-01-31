@@ -11,6 +11,11 @@
     color: #e06630;
   }
 
+  .hero {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   
   
   .navWrap {
